@@ -1,0 +1,246 @@
+@font-face {
+    font-family:fontface;
+    src: url(../sanchezregular.otf);
+    font-weight:500;
+    
+}
+
+body {
+    font-family:fontface;
+    width: 100%;
+}
+
+
+.logo{
+    float: left;
+    width: 150px;
+}
+
+#wrapper{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+    
+}
+
+header{
+    width:100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    overflow: hidden;
+    line-height: 80px;
+}
+
+nav{
+    height: 50px;
+    line-height: 50px;
+    background: #FFE226;
+    width: 100%;
+    /* max-width: 1000px; */
+    margin: 0 auto;
+}
+
+nav ul{
+    margin: 0 auto;
+    
+}
+
+nav li {
+    float: left;
+    margin-right: 30px;
+    list-style-type: none;
+    width:18%;
+    text-align: center;
+    font-size:1.2em;
+    font-weight: 500;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav li:hover{
+    background: #FFB600;
+    transition: 0.3s;
+}
+
+nav li.active{
+    background: #26B6FF;
+}
+
+footer{
+    background: #F2ED91;
+    height: 50px;
+    clear: both;
+    line-height: 50px;
+
+}
+
+footer li {
+    float: left;
+    margin-right: 30px;
+    list-style-type: none;
+    font-size:0.84em;
+}
+
+/* Displaying index */
+
+main.index{
+    width: 70%;
+    float: left;
+}
+
+aside.index{
+    width: 30%;
+    float: right;
+}
+
+img.aside-index{
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+
+/* Displaying about */
+
+main.about{
+    width: 70%;
+    float: left;
+}
+
+aside.about{
+    width: 30%;
+    float: right;
+}
+
+img.aside-about{
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+p.about{
+    line-height: 1.5;
+}
+
+
+
+
+
+/* Displaying products */
+.column {
+    display: inline-block;
+    width: 48%;
+    height: 550px;
+    padding: 5px;
+}
+
+p.product-name{
+    width:80%;
+
+}
+
+a.product-name{
+    color: black;
+    text-decoration: none;
+}
+
+p.product-price{
+    color:rgba(38, 148, 5, 0.89);
+    size: 2em;
+
+}
+
+
+/* Displaying products-view */
+
+img.item-thumb {
+    width: 100%;
+    margin: 0;
+    float: right;
+    
+}
+
+main.item-view-main{
+    float: left;
+    display: block;
+    width: 50%;
+}
+
+aside.item-view-aside{
+    float: right;
+    display: block;
+    width: 50%;
+}
+
+li.item-desc{
+    margin-bottom: .4375rem;
+}
+
+/* Displaying hourly promotion */
+main.hourly-promo{
+    width: 50%;
+    float: left;
+    
+}
+
+aside.hourly-promo{
+    width: 50%;
+    float: right;
+}
+
+img.item-promo {
+    width: 100%;
+    margin: 0;
+}
+
+
+/* Form CSS */
+
+form label {
+    display: block;
+}
+textarea{
+    resize: none;
+    width: 40%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"], [type="button"] {
+    display: inline;
+}
+
+input[type="radio"].privacy {
+    display: block;
+}
+
+form li{
+    list-style-type: none;
+    margin-left: -20px;
+    margin-bottom: 3px;
+}
+
+input[type="text"], [type="email"]{
+    width: 25%;
+    
+}
+
+span.rederror {
+    display: block;
+    
+}
+
+input.login{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input.signup{
+    display: block;
+    margin-bottom: 10px;
+}
